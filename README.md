@@ -1,3 +1,23 @@
+<h1>Steps of execution and work</h1>
+<p>
+<ul>
+    <li>Importing libraries</li>
+     <li>Testing data</li>
+     <li>Data cleaning  : lower case , eliminating ponctuation</li>
+    <ul>Tokenization : tokenizing by word , tokenizing by sentence , <li>The sent_tokenize() splite the text into sentences :
+
+    - 'perhaps one of the most significant advances made by arabic mathematics began at this time with the work of al-khwarizmi, namely the beginnings of algebra.'
+    - 'it is important to understand just how significant this new idea was.'
+Same Thing In Arabic Text :</li>
+    </ul>
+     <li>Filtering Stop Words</li> <li>Lemmatizing
+A lemma is a word that represents a whole group of words, and that group of words is called a lexeme.</li>
+     <li>
+Chunking
+While tokenizing allows you to identify words and sentences, chunking allows you to identify phrases.</li>
+    
+</ul>
+</p>
 <h1>Text processing using spacy</h1>
 <img src="https://www.tertiarycourses.com.gh/media/catalog/product/cache/3/image/512x/040ec09b1e35df139433887a97daa66f/n/l/nlp-python-spacy_1.jpg"
      alt="spacy" width="600" height="400">
@@ -9,12 +29,10 @@
 <p>
 Natural language processing (NLP) is a field that focuses on making natural human language usable by computer programs. NLTK, or Natural Language Toolkit, is a Python package that you can use for NLP.
 
-A lot of the data that you could be analyzing is unstructured data and contains human-readable text. Before you can analyze that data programmatically, you first need to preprocess it. 
-     it's composed of :
-
+A lot of the data that you could be analyzing is unstructured data and contains human-readable text. Before you can analyze that data programmatically, it's composed of :
 Find text to analyze
 Preprocess your text for analysis
-Analyze your text
+Analyze your tex
 Create visualizations based on your analysis
 </p>
 
